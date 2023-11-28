@@ -10,11 +10,10 @@ if (a > b) {
 } else { 
   console.log('b è più grande di a')
 }
-console.log(a, b)
 
 //oppure
-
-console.log(Math.max(a, b))
+if( a !== b){
+console.log(Math.max(a, b))}
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
