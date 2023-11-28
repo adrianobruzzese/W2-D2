@@ -79,12 +79,11 @@ let g = 1
 let h = 10
 let i = 100
 const totalShoppingCart = [g+h+i];
-console.log(totalShoppingCart)
 
 if (totalShoppingCart > 50){
   console.log('le spese di spedizione sono gratuite, il suo totale è' + ' ' + totalShoppingCart)
 } else{
-  console.log('le spese di spedizione ammontano a 10, il suo totale è' + ' ' + [totalShoppingCart] + 10)
+  console.log('le spese di spedizione ammontano a 10, il suo totale è' + ' ' + [totalShoppingCart + 10])
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
